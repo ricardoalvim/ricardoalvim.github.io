@@ -1,106 +1,175 @@
 <!doctype html>
-<html>
+<html lang="pt-BR">
     <head>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://getbootstrap.com/dist/css/bootstrap.min.css" crossorigin="anonymous">
-        <!-- Optional theme -->
-        <title>Ricardo Alvim</title>        
-        <link href="https://getbootstrap.com/examples/carousel/carousel.css"" rel="stylesheet">
+        <!-- RICARDO ALVIM -->
+        <!-- HOMEPAGE RESTYLED -->
+        <!-- TODOS OS DIREITOS RESERVADOS -->
+        <title>Ricardo Alvim</title>
+        <meta charset="UTF-8">  
+        <!-- IMPORTAÇÕES -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link href="http://alpha.penzelabs.com.br/avenida/ofertas/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>       
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+    
     </head>
-    <body>
-        <div class="container">
-            <header>
-                <div class="navbar-wrapper">
-                    <div class="container">
-                        <nav class="navbar navbar-inverse navbar-static-top">
-                        <div class="container">
-                            <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Ricardo Alvim</a>
-                            </div>
-                            <div id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#about">Sobre</a></li>
-                                <li><a href="#contact">Contato</a></li>                                
-                            </ul>
-                            </div>
-                        </div>
-                        </nav>
+    <!-- CABEÇALHO -->
+    <header id="topo">
+        <h4>Ricardo Alvim | Analista de Sistemas</h4>
+        <!-- REDES SOCIAIS -->
+        <!-- Facebook -->
+        <a class="icon-net" target="_blank" href="https://www.facebook.com/TheRicardo815">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <!-- Linkedin -->
+        <a class="icon-net" target="_blank" href="https://www.linkedin.com/in/ricardoalvimweb">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <!-- GitHub -->
+        <a class="icon-net" target="_blank" href="https://github.com/ricardoalvim-edu">
+            <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+        <!-- YouTube -->
+        <a class="icon-net" target="_blank" href="https://www.youtube.com/channel/UC02ista4GXdv1CgB4pNLzpg">
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+        </a>
+        <!-- FIM REDES SOCIAIS -->
+    </header>
+    <!-- SOBRE -->
+    <section class="diagonal sobre">
+        <h1>Sobre mim</h1>
+        <p>Entusiasta da tecnologia desde 2005 de forma autodidata aprendeu diversos conceitos tecnológicos que puderam servir de base para que hoje seja um estudante da Universidade Tecnológica Federal do Paraná (UTFPR), Campus Cornélio Procópio e Desenvolvedor/Analista de Projetos em 2015 na Agência Penze.
+        <br><br>
+        Com visão multidisciplinar fazendo uso da Tecnologia, Gestão, Marketing, Estatística e Economia, o relacionamento de ideias focadas em resultado, é sob diversas perspectivas multidisciplinares, aumentando a confiabilidade de decisões.
+        <br><br>
+        E além disso conhece e desenvolve nas linguagens Java e PHP sendo, respectivamente, o Java com a tecnologia e especificação Hibernate 4, Android (4.1+); TORM ORM e Laravel com PHP 5/7 de forma Orientada a Objeto.</p>
+    </section>
+    <!-- FIM SOBRE -->
+    <!-- FORMAÇÃO -->
+    <section class="diagonal formacao">
+        <h1>Formação</h1>
+        <!-- UTFPR -->
+        <h2 class="formacaoItem">Análise e Desenvolvimento de Sistemas</h2>
+        <p class="formacaoItem">Universidade Tecnológica Federal do Paraná - UTFPR<br>
+        Cornélio Procópio</p>
 
-                    </div>
-                    </div>
-            </header>
-          </div>  
-             <!-- Carousel
-    ================================================== -->
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                    <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-                    <div class="container">
-                        <div class="carousel-caption">
-                        <h1>Projetos desenvolvidos.</h1>
-                        <p>Conheça aqui os projetos desenvolvidos ao longo dos anos em Java, PHP e outros</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Veja agora</a></p>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-                    <div class="container">
-                        <div class="carousel-caption">
-                        <h1>Meu currículo.</h1>
-                        <p>Veja aqui meu currículo e veja se seu negócio tem aderência com minha missão, visão e valores.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Abrir currículo</a></p>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-                    <div class="container">
-                        <div class="carousel-caption">
-                        <h1>Solicite um projeto.</h1>
-                        <p>Veja aqui como entrar em contato e solicitar um projeto sob demanda e veja se seu negócio possui aderẽncia aos demais projetos para que possamos juntos, construir um melhor amanhã!.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Solicitar agora!</a></p>
-                        </div>
-                    </div>
-                    </div>
+        <hr>
+        <!-- TÉCNICO -->
+        <h2 class="formacaoItem">Técnico em Informática</h2>
+        <p class="formacaoItem">Etec Pedro D'Arcádia Neto<br>
+        Assis</p>
+
+        <hr>
+
+        <!-- PIC -->
+        <h2 class="formacaoItem">Projeto de Captação e Solidificação na Formação de Engenheiros da Computação via Residência em Software Embarcado</h2>
+        <p class="formacaoItem">CNPq, Vale, UTFPR e Etec Pedro D'Arcádia Neto<br>
+        Assis</p>
+    </section>
+    <!-- FIM FORMAÇÃO -->
+    <section class="diagonal portfolio">
+        <h1>Portfolio</h1>
+        <div class="listItens">
+            <!-- Smartlist -->
+            <div class="row">
+                <div class="imageItem">
+                    <img class="imgIt" src="img/smartlist.png"/>
                 </div>
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Próxima</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                </a>
-                </div><!-- /.carousel -->
-            <article>
-            </article>
-            <!-- FOOTER -->
-        <footer>
-            <div class="container">
-                <p class="pull-right"><a href="#">Voltar para cima</a></p>
-                <p>Ricardo Alvim. <br>Esse site faz uso do Framework Bootstrap. <br>Veja sobre o Bootstrap em: <a href="https://getbootstrap.com/">https://getbootstrap.com/</a></p>
-            </div>   
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-        <script src="https://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    </body>    
+                <div class="descItem">
+                    <h1 class="txtItem">Smartlist</h1>
+                    <p class="txtItem">Aplicação de comparação de preços de estabelecimentos varejistas baseado em localização do usuário. <br>
+                    Tecnologias Java EE + JSP + MySQL + Bootstrap + jQuery
+                    <br><a href="https://goo.gl/FRhSYx" target="_blank">
+                        <button class="btn-project">Ver no GitHub</button></a>
+                    </p>
+                </div>       
+            </div>         
+            <!-- OAC -->
+            <div class="row">
+                <hr>
+                <div class="imageItem">
+                    <img class="imgIt" src="http://alpha.penzelabs.com.br/avenida/ofertas/avenida-tabloide.png"/>
+                </div>
+                <div class="descItem">
+                    <h1 class="txtItem">Ofertas a um Clique</h1>
+                    <p class="txtItem">Projeto do Tabloide de Ofertas do Supermercados Avenida (Casa Avenida Comércio e Importação Ltda) em Dezembro de 2015 (com diversos incrementos até Fevereiro de 2016, sendo um projeto rolling release) e um localizador de lojas pela web para auxiliar o consumidor na obtenção de informações sobre lojas da rede, bem como o uso de API REST para disponibilizar recursos da aplicação para terceiros.
+                    <br><a href="http://alpha.penzelabs.com.br/avenida/ofertas/?utm_source=LinkedInRicardo" target="_blank">
+                        <button class="btn-project">Ir para o Ofertas a um Clique</button></a>
+                    </p>
+                </div>       
+            </div>         
+            <!-- Meu Avenida -->
+            <div class="row">
+                <hr>
+                <div class="imageItem">
+                    <img class="imgIt" src="img/meuavenida.png"/>
+                </div>
+                <div class="descItem">
+                    <h1 class="txtItem">Meu Avenida para Android</h1>
+                    <p class="txtItem">Aplicativo desenvolvido em Java para Android usando os conceitos do Material Design para o Supermercados Avenida.<br>
+                        Desenvolvido em Java + SQLite e Web Services
+                        <br><a href="goo.gl/dtep4B" target="_blank">
+                            <button class="btn-project">Ver na Play Store</button></a>
+                    </p>
+                </div>       
+            </div>            
+            <!--  Colabdraw --> 
+            <div class="row">
+                <hr>
+                <div class="imageItem">
+                    <img class="imgIt" src="img/descolab.png"/>
+                </div>
+                <div class="descItem">
+                    <h1 class="txtItem">Desenho colaborativo</h1>
+                    <p class="txtItem">Aplicação desenvolvida em C# fazendo uso do Touchless Lib para desenvolvimento de uma aplicação de desenho colaborativo através de uma Webcam onde por meio de um marcador, as interações do usuário são mapeadas e desenhadas na tela.
+                        <br><a href="https://youtu.be/QNEO-RnozbQ" target="_blank">
+                            <button class="btn-project">Ver vídeo de apresentação no YouTube</button></a>
+                    </p>
+                </div>       
+            </div>                     
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <!--<section class="diagonal contato">
+        <h1>Contato</h1>        
+        <form class="contact" action="action_page.php">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" name="assunto">
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>-->
+    <!-- FIM CONTATO -->
+
+    <!-- RODAPÉ -->
+    <footer class="diagonal">
+        <p>Ricardo Alvim. Todos os direitos reservados.</p>   
+        <!-- Facebook -->
+        <a class="icon-net" target="_blank" href="https://www.facebook.com/TheRicardo815">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <!-- Linkedin -->
+        <a class="icon-net" target="_blank" href="https://www.linkedin.com/in/ricardoalvimweb">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <!-- GitHub -->
+        <a class="icon-net" target="_blank" href="https://github.com/ricardoalvim-edu">
+            <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+        <!-- YouTube -->
+        <a class="icon-net" target="_blank" href="https://www.youtube.com/channel/UC02ista4GXdv1CgB4pNLzpg">
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+        </a>
+        <br>
+        <br>
+        <a href="#topo" class="backToTop">Voltar para o topo</a> 
+    </footer>
+    <!-- FIM RODAPÉ -->
 </html>
