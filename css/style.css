@@ -163,6 +163,6 @@ input[type=submit]:hover {
 .titleItem{
     text-align: center;
 }
-.fa-university, fa-building{
-    margin-right: 0.5%;
+.fa-university, .fa-building{
+    margin-right: 1%;
 }
