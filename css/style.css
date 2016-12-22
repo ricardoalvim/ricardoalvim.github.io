@@ -29,7 +29,7 @@ hr{
     margin-start: auto;
     margin-end: auto;
     border-style: inset;
-    border-width: 1px;
+    border-width: 0px;
 }
 header{
     height: 12vh;
