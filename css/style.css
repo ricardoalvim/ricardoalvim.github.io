@@ -28,8 +28,8 @@ hr{
     -webkit-margin-after: 0.5em;
     -webkit-margin-start: auto;
     -webkit-margin-end: auto;
-    border-style: inset;
-    border-width: 0px;
+    border-style: dashed;
+    border-width: 1px;
 }
 header{
     height: 12vh;
