@@ -31,7 +31,7 @@ hr{
 header{
     height: 60px;
     margin-top: 3%;
-    margin-left: 3%;
+    margin-left: 4%;
     margin-bottom: 6%;
 }
 section:before {
@@ -86,19 +86,17 @@ footer.diagonal {
 }
 .imageItem{
     width: 100%;
-    max-width: 180px;
     float: left;
     margin: 2%;
 }
 .imgIt{
-    width: 180px;
+    width: 120px;
 }
 .descItem{
     width: 100%;
     text-align: left;
 }
 .txtItem{
-    margin-left: 10vw;
     color: white;
 }
 .formacaoItem{
