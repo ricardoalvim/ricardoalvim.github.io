@@ -83,7 +83,7 @@ footer.diagonal {
     background: #00B0FF;
 }
 .listItens{
-    width: 98%;
+    width: 100%;
     text-align: center;
     margin: 0px auto;
 }
@@ -140,7 +140,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 input[type=submit]:hover {
