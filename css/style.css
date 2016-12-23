@@ -56,9 +56,6 @@ footer.diagonal {
     z-index: 1;
     padding: 4em;
 }
-.diagonal:hover{
-    padding: 3em;
-}
 .diagonal:before {
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
