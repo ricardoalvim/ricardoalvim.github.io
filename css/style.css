@@ -3,7 +3,7 @@ body {
     margin: 0px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5, h6{
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -32,10 +32,8 @@ hr{
     border-width: 1px;
 }
 header{
-    height: 12vh;
-    margin-top: 3%;
-    margin-left: 4%;
-    margin-bottom: 6%;
+    height: 35vh;
+    padding: 4em;
 }
 section:before {
     position: absolute;
@@ -71,6 +69,16 @@ footer.diagonal {
 .sobre{
     background: #006c96;
     text-align: justify;
+    height: 58vh;
+}
+.area{
+    padding-left: 0px; 
+    padding-right: 0px; 
+}
+.especialidades{
+    background: #4b4b7f;
+    text-align: justify;
+    height: 65vh;
 }
 .portfolio{
     background: #3F51B5;
