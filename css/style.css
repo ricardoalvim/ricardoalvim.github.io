@@ -32,19 +32,42 @@ hr{
     border-width: 1px;
 }
 header{
-    height: 35vh;
-    padding: 4em;
+    height: 48vh;    
+    z-index: 10;
+    background-color: #006c96;
+    padding: 4em;        
+}
+header:before {
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    -webkit-transform-origin: 3% 0;
+    transform-origin: 3% 0;
+    top: 0;
+    left: -0.6%;
+    z-index: 1;
+    width: 60%;
+    height: 90%;
+    background: inherit;
+    position: fixed;
 }
 section:before {
     position: absolute;
     content:'';
 }
+.headItem{
+    color: #fff;
+}
 footer {
     position: relative;
-    background: #304FFE;
+    background: #006c96;
     color: #fff;
     text-align: center;
     font-size: 2vh;
+}
+
+.breadcrumb{
+    background-color: #014865;
+    margin-top: 3vh;
 }
 
 footer.diagonal {
@@ -54,6 +77,7 @@ footer.diagonal {
     z-index: 1;
     padding: 4em;
 }
+
 .diagonal:before {
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
@@ -67,24 +91,25 @@ footer.diagonal {
     background: inherit;
 }
 .sobre{
-    background: #006c96;
+    background: #0a5a7b;
     text-align: justify;
     height: 58vh;
 }
+
 .area{
     padding-left: 0px; 
     padding-right: 0px; 
 }
 .especialidades{
-    background: #4b4b7f;
+    background: #014865;
     text-align: justify;
     height: 65vh;
 }
 .portfolio{
-    background: #3F51B5;
+    background: #011923;
 }
 .formacao{
-    background: #0091ea;
+    background: #012838;
     text-align: left;
 }
 .contato{
@@ -173,4 +198,78 @@ input[type=submit]:hover {
 }
 .iconPort{
     padding-right: 0.4%;
+}
+.backToTop:hover{
+    color: #e67e22;
+}
+.fa-github:hover{
+    color: #8e44ad;
+}
+.fa-facebook:hover{
+    color: #3498db;
+}
+.fa-youtube:hover{
+    color: #e74c3c;
+}
+
+@media screen and (min-width: 881px) and (max-width: 1220px) { 
+    .especialidades{
+        height: 110vh;
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 880px) { 
+    .sobre{
+        background: #0a5a7b;
+        text-align: justify;
+        height: 72vh;
+    }
+    .especialidades{
+        height: 110vh;
+    }
+}
+@media screen and (min-width: 526px) and (max-width: 619px) { 
+    .sobre{
+        background: #0a5a7b;
+        text-align: justify;
+        height: 75vh;
+    }
+    .especialidades{
+        height: 115vh;
+    }
+}
+@media screen and (min-width: 436px) and (max-width: 525px) { 
+    .sobre{
+        background: #0a5a7b;
+        text-align: justify;
+        height: 94vh;
+    }
+    .especialidades{
+        height: 115vh;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 435px) { 
+    .sobre{
+        background: #0a5a7b;
+        text-align: justify;
+        height: 110vh;
+    }
+    .especialidades{
+        height: 115vh;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 379px) { 
+    .sobre{
+        background: #0a5a7b;
+        text-align: justify;
+        height: 120vh;
+    }
+    header{
+        height: 58vh;
+    }
+    .especialidades{
+        height: 115vh;
+    }
 }
