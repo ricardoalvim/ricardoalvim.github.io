@@ -214,7 +214,7 @@ input[type=submit]:hover {
 
 @media screen and (min-width: 881px) and (max-width: 1220px) { 
     .especialidades{
-        height: 110vh;
+        height: 120vh;
     }
 }
 
