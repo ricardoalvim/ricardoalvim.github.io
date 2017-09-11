@@ -214,7 +214,7 @@ input[type=submit]:hover {
 
 @media screen and (min-width: 881px) and (max-width: 1220px) { 
     .especialidades{
-        height: 120vh;
+        height: 125vh;
     }
 }
 
@@ -225,7 +225,7 @@ input[type=submit]:hover {
         height: 72vh;
     }
     .especialidades{
-        height: 110vh;
+        height: 130vh;
     }
 }
 @media screen and (min-width: 526px) and (max-width: 619px) { 
@@ -242,10 +242,10 @@ input[type=submit]:hover {
     .sobre{
         background: #0a5a7b;
         text-align: justify;
-        height: 94vh;
+        height: 100vh;
     }
     .especialidades{
-        height: 115vh;
+        height: 118vh;
     }
 }
 
@@ -253,7 +253,7 @@ input[type=submit]:hover {
     .sobre{
         background: #0a5a7b;
         text-align: justify;
-        height: 110vh;
+        height: 152vh;
     }
     .especialidades{
         height: 115vh;
@@ -264,12 +264,29 @@ input[type=submit]:hover {
     .sobre{
         background: #0a5a7b;
         text-align: justify;
-        height: 120vh;
+        height: 132vh;
     }
     header{
         height: 58vh;
     }
     .especialidades{
-        height: 115vh;
+        height: 120vh;
     }
+}
+
+@media screen and (min-width: 309px) and (max-width: 340px) { 
+    .sobre{
+        background: #0a5a7b;
+        text-align: justify;
+        height: 152vh;
+    }
+    header{
+        height: 58vh;
+    }
+    .especialidades{
+        height: 196vh;
+    }
+}
+.btn{
+    margin: 1vh;
 }
