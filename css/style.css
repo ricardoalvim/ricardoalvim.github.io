@@ -32,10 +32,12 @@ hr{
     border-width: 1px;
 }
 header{
-    height: 48vh;    
     z-index: 10;
     background-color: #006c96;
-    padding: 4em;        
+    padding: 4em;  
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;      
 }
 header:before {
     -webkit-transform: rotate(-3deg);
@@ -93,7 +95,9 @@ footer.diagonal {
 .sobre{
     background: #0a5a7b;
     text-align: justify;
-    height: 58vh;
+    overflow: auto;
+    /*overflow-x: hidden;
+    overflow-y: hidden;*/
 }
 
 .area{
@@ -102,15 +106,17 @@ footer.diagonal {
 }
 .especialidades{
     background: #014865;
-    text-align: justify;
-    height: 65vh;
+    text-align: left;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .portfolio{
     background: #011923;
 }
 .formacao{
     background: #012838;
-    text-align: left;
+    text-align: left;    
 }
 .contato{
     background: #00B0FF;
@@ -210,82 +216,6 @@ input[type=submit]:hover {
 }
 .fa-youtube:hover{
     color: #e74c3c;
-}
-
-@media screen and (min-width: 881px) and (max-width: 1220px) { 
-    .especialidades{
-        height: 125vh;
-    }
-}
-
-@media screen and (min-width: 620px) and (max-width: 880px) { 
-    .sobre{
-        background: #0a5a7b;
-        text-align: justify;
-        height: 72vh;
-    }
-    .especialidades{
-        height: 130vh;
-    }
-}
-@media screen and (min-width: 526px) and (max-width: 619px) { 
-    .sobre{
-        background: #0a5a7b;
-        text-align: justify;
-        height: 75vh;
-    }
-    .especialidades{
-        height: 115vh;
-    }
-}
-@media screen and (min-width: 436px) and (max-width: 525px) { 
-    .sobre{
-        background: #0a5a7b;
-        text-align: justify;
-        height: 100vh;
-    }
-    .especialidades{
-        height: 118vh;
-    }
-}
-
-@media screen and (min-width: 380px) and (max-width: 435px) { 
-    .sobre{
-        background: #0a5a7b;
-        text-align: justify;
-        height: 152vh;
-    }
-    .especialidades{
-        height: 128vh;;
-    }
-}
-
-@media screen and (min-width: 340px) and (max-width: 379px) { 
-    .sobre{
-        background: #0a5a7b;
-        text-align: justify;
-        height: 132vh;
-    }
-    header{
-        height: 58vh;
-    }
-    .especialidades{
-        height: 130vh;
-    }
-}
-
-@media screen and (min-width: 309px) and (max-width: 340px) { 
-    .sobre{
-        background: #0a5a7b;
-        text-align: justify;
-        height: 152vh;
-    }
-    header{
-        height: 58vh;
-    }
-    .especialidades{
-        height: 196vh;
-    }
 }
 .btn{
     margin: 1vh;
