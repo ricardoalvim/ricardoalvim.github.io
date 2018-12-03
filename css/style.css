@@ -143,6 +143,7 @@ footer.diagonal {
 }
 .formacaoItem{
     color: white;
+    font-size: 3vh;
 }
 label{
     text-align: left;
