@@ -77,7 +77,7 @@ footer.diagonal {
 }
 .diagonal {
     z-index: 1;
-    padding: 4em;
+    padding: 3em;
 }
 
 .diagonal:before {
